@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "eslint . --ext .ts",
     "start": "ts-node ./main.ts"
   },

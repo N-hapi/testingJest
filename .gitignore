@@ -6,6 +6,9 @@ dist/
 build/
 out/
 
+#covrage
+coverage/
+
 # TypeScript compiled files
 *.js
 *.js.map
