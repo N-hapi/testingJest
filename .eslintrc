@@ -1,0 +1,14 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint", "prettier"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"  // Enables eslint-plugin-prettier and eslint-config-prettier
+    ],
+    "rules": {
+      "prettier/prettier": ["error", {"endOfLine": "auto"}],  // Example Prettier rule
+      // Additional or overridden rules here
+    }
+  }
+  
